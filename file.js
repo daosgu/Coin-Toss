@@ -6,7 +6,7 @@ function beginChange()
 {
     nroImg = 5; //This is the number of images to upload in array.
     for(i = 0; i < nroImg; i++)
-        arrimg.push("./img/img" + (i+1) + ".gif");
+        arrimg.push("./img" + (i+1) + ".gif");
 
     ChangeImg();
     setInterval(ChangeImg, 2000);
